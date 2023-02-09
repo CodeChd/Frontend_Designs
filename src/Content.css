@@ -5,6 +5,7 @@ main{
 .main-container{
     display: flex;
     gap: 2.5rem;
+    height: 80vh;
 }
 
 
@@ -24,19 +25,29 @@ h2, p,h3, h4{
 
 .col-1 .img-container img{
     width: 100%;
-    min-width: 400px;
+    min-width: 578px;
+    height: 100%;
+}
+.col-1 .img-container {
+    flex: 1;
+    flex-shrink: 0;
+    
 }
 .col-1 .details-box{
     display: flex;
 }
 .col-1 .details-box h2{
-   font-size: 3rem;
-   font-weight: 800;
-   margin: 0;
-   
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+    
 }
+.col-1  .details-box .txt-wrapper{
+    margin-top: 2rem;
+}
+
 .col-1 .desc{
-    padding: 1rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -54,25 +65,31 @@ h2, p,h3, h4{
 
 /* col-1 end */
 
-
 .col-2{
-background: var(--Very-dark-blue); 
-padding: 1.5rem;   
+    background: var(--Very-dark-blue); 
+    padding: 2rem;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .col-2 .info{
-    margin: 11rem;
-    border-bottom: 2px solid pink;
+    padding: 2rem 0;
+    border-bottom: 1px solid;
     border-color: var(--Grayish-blue);
+
 }
 
 .col-2 h2{
     color: var(--Soft-orange);
     font-size: 2.5rem;
+    height: 10%;
+    margin: 0;
 }
 .col-2 h3{
     color: var( --Off-white);
     margin: 0;
 }
-.col-2 p{
+.col-2 h3 + p{
     color: var( --Grayish-blue);
+    margin-top: 1rem;
 }

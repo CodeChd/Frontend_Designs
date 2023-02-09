@@ -22,9 +22,6 @@
   --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 body p{
   font-size: 15px;
 }
