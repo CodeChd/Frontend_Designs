@@ -6,6 +6,7 @@ main{
     display: flex;
     gap: 2.5rem;
     height: 80vh;
+    min-width: 768px;
 }
 
 
@@ -92,4 +93,44 @@ h2, p,h3, h4{
 .col-2 h3 + p{
     color: var( --Grayish-blue);
     margin-top: 1rem;
+}
+
+/* col 2 end */
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.card{
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.info-details{
+    margin-right: 2rem;
+    padding: 0;
+
+}
+
+.card .info-details h2{
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+    color: var(--Grayish-blue);
+}
+.card .info-details  p:nth-child(2){
+    margin-top: 2rem;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+.card .info-details  p:nth-child(3){
+    font-size: 1.1rem;
+
 }

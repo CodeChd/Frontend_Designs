@@ -12,9 +12,9 @@ export default function Content() {
                     </div>
 
                     <div className="details-box">
-                    <div className="txt-wrapper">
-                        <h2>The Bright Future  of Web 3.0?</h2>
-                    </div>
+                        <div className="txt-wrapper">
+                            <h2>The Bright Future  of Web 3.0?</h2>
+                        </div>
 
 
                         <div className="desc">
@@ -28,7 +28,7 @@ export default function Content() {
                 </div>
 
                 <div className="col-2">
-                   
+
 
                     <h2>New</h2>
 
@@ -47,10 +47,52 @@ export default function Content() {
                     {/* COL-2 END */}
                 </div>
 
+
+
+
+
             </div>
+                <div className="footer">
+                    <div className='card one'>
+
+                        <div className="image-container">
+                            <img src="/assets/images/image-retro-pcs.jpg" alt="retro-image" />
+                        </div>
+
+                        <div className="info-details">
+                            <h2>01</h2>
+                            <p>Reviving Retro PCs</p>
+                            <p>What happens when old pcs are given modern upgrades?</p>
+                        </div>
+
+                    </div>
 
 
+                    <div className='card two'>
+                        
+                    <div className="image-container">
+                            <img src="/assets/images/image-top-laptops.jpg" alt="laptop-image" />
+                        </div>
 
+                        <div className="info-details">
+                            <h2>02</h2>
+                            <p>Top 10 Laptops of 2022</p>
+                            <p>Our best picks for various needs and budgets.</p>
+                        </div>
+                    </div>
+                    <div className='card three'>
+                        
+                    <div className="image-container">
+                            <img src="/assets/images/image-gaming-growth.jpg" alt="gaming-image" />
+                        </div>
+
+                        <div className="info-details">
+                            <h2>03</h2>
+                            <p>The Growth of Gaming</p>
+                            <p>How the pandemic has sparked fresh opportunities.</p>
+                        </div>
+                    </div>
+                </div>
         </main>
     )
 }
