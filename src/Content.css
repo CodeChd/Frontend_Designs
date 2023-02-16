@@ -202,7 +202,7 @@ h2, p,h3, h4{
 /* mobile */
 @media (max-width: 378px){
     main{
-        gap: 45rem;
+        gap: 42rem;
     }
 
 
@@ -222,6 +222,11 @@ h2, p,h3, h4{
         align-items: center;
 
 
+    }
+
+    .details-box .desc{
+        margin: 0;
+        padding: 0;
     }
 
     .col-1 {

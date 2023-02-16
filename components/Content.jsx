@@ -11,7 +11,7 @@ export default function Content() {
                     <div className="img-container">
 
                         <picture >
-                            <source className='img-src' media="(max-width: 390px)" srcset="/assets/images/image-web-3-mobile.jpg" />
+                            <source className='img-src' media="(max-width: 390px)" srcSet="/assets/images/image-web-3-mobile.jpg" />
                             <img src="/assets/images/image-web-3-desktop.jpg" alt="desktop-image" />
                         </picture>
                     </div>
