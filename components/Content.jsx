@@ -9,7 +9,11 @@ export default function Content() {
             <div className="main-container">
                 <div className="col-1">
                     <div className="img-container">
-                        <img src="/assets/images/image-web-3-desktop.jpg" alt="desktop-image" />
+
+                        <picture >
+                            <source className='img-src' media="(max-width: 390px)" srcset="/assets/images/image-web-3-mobile.jpg" />
+                            <img src="/assets/images/image-web-3-desktop.jpg" alt="desktop-image" />
+                        </picture>
                     </div>
 
                     <div className="details-box">
@@ -54,8 +58,8 @@ export default function Content() {
 
             </div>
 
-            <Footer/>
-              
+            <Footer />
+
         </main>
     )
 }

@@ -33,3 +33,9 @@ header{
 
     
 }
+
+@media (max-width: 374px){
+    header .container .main-nav{
+        display: none;
+    }
+}

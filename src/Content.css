@@ -1,5 +1,8 @@
 main{
     margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-container{
@@ -20,25 +23,24 @@ h2, p,h3, h4{
 .col-1{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 100%;
 }
 
 
 .col-1 .img-container img{
     width: 100%;
-    min-width: 450px;
     height: 100%;
 }
 .col-1 .img-container {
     flex: 1;
-    flex-shrink: 0;
     
 }
 .col-1 .details-box{
     display: flex;
+    gap: 1rem;
 }
 .col-1 .details-box h2{
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 800;
     margin: 0;
     
@@ -103,21 +105,14 @@ h2, p,h3, h4{
 .footer{
     display: flex;
     margin-top: 4rem;
-    width: 100%;
     gap: 2.5rem;
 
 }
 
 .card{
-    flex: 1;
     display: flex;
-    gap: 1rem;
+    gap: 1rem;  
     align-items: center;
-}
-
-.info-details{
-    padding: 0;
-
 }
 
 .card .info-details h2{
@@ -139,14 +134,16 @@ h2, p,h3, h4{
 
 
 @media screen and (max-width: 781px){
+   
     .main-container{
-        width: 680px;
+        width: 700px;
     }
+
     .details-box{
-        height: 50%;
+        height: 58%;
     }
+
     .details-box .txt-wrapper h2{
-        margin: 0;
         font-size: 2.2rem;
     }
 
@@ -168,7 +165,6 @@ h2, p,h3, h4{
     
     .col-2 .info p{
         font-size: .80rem;
-        margin: 0;
 
     }
    
@@ -177,14 +173,9 @@ h2, p,h3, h4{
         padding: 0;
         font-size: 1rem;
     }
-    .col-2 .info:nth-child(3){
-        min-height: 20%;
-        padding-bottom: 2.9rem;
-        font-size: 1rem;
-    }
+
 
     .col-2 .info-last{
-        height: 25%;
         padding-top: 1rem;
     }
     .col-2 .info-last p{
@@ -194,10 +185,13 @@ h2, p,h3, h4{
     }
 
     .footer .card{
-        min-width: 200px;
         display: block;
     }
 
+   
+    .footer .card .info-details p + p{
+        font-size: .95rem;
+    }
     .footer .card .info-details p{
         font-size: 1rem;
     }
@@ -206,10 +200,16 @@ h2, p,h3, h4{
 
 
 /* mobile */
-@media (max-width: 375px){
+@media (max-width: 378px){
+    main{
+        gap: 45rem;
+    }
+
+
     .main-container{
-    width: 100%;
      flex-direction: column;
+     width: 100%;    
+     gap: 6.5rem
     }
 
     .col-1{
@@ -218,13 +218,50 @@ h2, p,h3, h4{
 
     .details-box{
         flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+
+    }
+
+    .col-1 {
+        width: 100%;
     }
 
     .col-2{
-        width: 100%;
+        gap: 1.3rem;
+    }
+
+    .col-2 .info{
+        padding-bottom: 1rem;
     }
 
     .footer{
         flex-direction: column;
+
     }
+
+    .footer .card{
+        display: flex;
+    }
+
+    .card .image-container{
+        width: 100%;
+        height: 100%;
+    }
+    .card .image-container img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .card .info-details > h2{
+        font-size: 2rem;
+    }
+    .footer .card .info-details p + p{
+        font-size: .90rem;
+    }
+    .card .info-details p:nth-child(2){
+        margin: 0;
+    }
+
 }
