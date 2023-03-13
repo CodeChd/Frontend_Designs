@@ -3,4 +3,4 @@
 
 ## Welcome! 👋
 
-this website is a front-end coding challenge from frontendmentor i made.
+this codebasae is a front-end coding challenge from frontendmentor
