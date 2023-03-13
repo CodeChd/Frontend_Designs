@@ -3,10 +3,11 @@
 
 ### Screenshot
 <h1>Desktop View</h1>
+
 ![](./images/desktop-view.png)
-<br></br>
 
 <h1>Mobile View</h1>
+
 ![](./images/mobile-view.png)
 
 ## My process
