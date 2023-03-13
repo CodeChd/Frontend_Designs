@@ -3,4 +3,4 @@
 
 ## Welcome! 👋
 
-this codebasae is a front-end coding challenge from frontendmentor
+this codebasae is a front-end coding challenge from frontendmentor. Please checkout other branches
