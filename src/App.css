@@ -1,16 +1,19 @@
 .App{
   background-color: var(  --Cream);
-
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 14px;
+  padding: 10px;
   min-height: 100vh;
 }
 
 section{
   padding: 14px;
   background-color: var( --White);
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  position: relative;
+  transform: translateY(-4.999px);
 }
 
 section > p:first-child {
@@ -51,48 +54,29 @@ section > h2 > span {
 
 section button{
   display: flex;
+  place-content: center;
   background-color: var(--Dark-cyan);
   color: var(--White);
   font-family: "Montserrat",sans-serif;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   width: 100%;
-  height: 10%;
+  height: 50px;
+  padding: 1rem 0;
+  margin-block: 1rem;
 
 }
 
-section button > img {
-  width: 10%;
-  height: 10%;
+section button > span {
+   margin-inline-start: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 375px) {
 
   .content{
-    padding: 14px;
+    padding: 10px;
+    
   }
 
   .content img{
