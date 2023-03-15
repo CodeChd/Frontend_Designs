@@ -14,7 +14,7 @@ function App() {
           <p>PERFUME</p>
           <h1>Gabrielle Essence Eau De Parfum</h1>
           <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
-            Perfumer-Creator for the House of CHANEL.</p>
+            Perfumer-Creator for the House of CHANEL</p>
           <h2>
             $149.99
             <span>$169.99</span>
