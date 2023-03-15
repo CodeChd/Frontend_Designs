@@ -5,7 +5,6 @@
 <h1>Desktop</h1>
 ![](./public/images/Desktop_View.png)
 
-<br><br>
 
 <h1>Mobile</h1>
 ![](./public/images/Mobile_View.png)
