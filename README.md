@@ -3,12 +3,12 @@
 
 ### Screenshot
 Desktop
-![](./images/Desktop_View.jpg)
+![](./images/Desktop_View.png)
 
 <br><br>
 
 Mobile
-![](./images/Mobile.jpg)
+![](./images/Mobile_View.png)
 
 ### Links
 
