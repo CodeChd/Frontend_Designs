@@ -1,0 +1,98 @@
+.App{
+  background-color: var(  --Cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+
+.content{
+  overflow: hidden;
+  border-radius: 0.5rem;
+
+}
+
+article{
+  padding: 14px;
+  background-color: var( --White);
+}
+
+article > p:first-child {
+  letter-spacing: 4px;
+  padding: 14px 0;
+}
+
+article > h1, h2 {
+  font-family: "Fraunces",sans-serif;
+  font-size: 1.7rem;
+}
+
+article > h1{
+
+  color: var(--Very-dark-blue);
+
+}
+article > h2{
+
+  color: var(--Dark-cyan);
+
+}
+
+article p:nth-child(3){
+  padding: 1rem 0;
+}
+
+article > h2 > span {
+  position: relative;
+  bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var( --Dark-grayish-blue);
+  text-decoration: line-through;
+  font-family: "Montserrat",sans-serif;
+  margin-inline-start: 1rem;
+}
+
+article button{
+  display: flex;
+  place-content: center;
+  background-color: var(--Dark-cyan);
+  color: var(--White);
+  font-family: "Montserrat",sans-serif;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+  padding: 1rem 0;
+  margin-block: 1rem;
+
+}
+
+article button > span {
+   margin-inline-start: 14px;
+}
+
+
+@media (min-width: 600px) {
+
+  .content{
+    display: flex;
+    max-width: 600px;
+  }
+  img{
+    height: 100%;
+  }
+
+  article{
+    display: flex;
+    max-width: 300px;
+
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
+  
+}
