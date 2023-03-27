@@ -1,3 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;700&family=Manrope&display=swap');
+
+:root{
+  --Dark-purple: #361154;
+  --btn-primary: #86efac;
+  --White: #f0fdf4;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -43,4 +52,9 @@ input, button, textarea, select {
 */
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+}
+
+body{
+  font-family: "Manrope",sans-serif;
+  font-size: 18px;
 }

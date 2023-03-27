@@ -1,0 +1,393 @@
+.App{
+  padding: 1.5rem;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  margin-bottom: 4rem;
+}
+
+
+.header{
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;   
+}
+
+.header > p{
+  margin-left: auto;
+  color: var(--White);
+  font-weight: 700;
+  border-bottom: 2px solid;
+  border-color: var(--btn-primary);
+  
+}
+
+.bg-pattern-1, .bg-pattern-2, .bg-pattern-3{
+  display: none;
+}
+
+.overlay-hero{
+
+  background: var( --Dark-purple);
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  clip-path:ellipse(700px 420px at 50vw 20vw);
+}
+
+.overlay-services{
+  background:#fbf7fe;
+  width: 100%;
+  height: 70rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  right: 0px;
+  z-index: -2;
+  clip-path:ellipse(800px 1000px at 50vw 20vw);
+}
+
+
+
+.sub-hero-container{
+  text-align: center;
+  margin-block:2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  gap:2rem;
+}
+
+.sub-hero-container > h1{
+  font-size: 3rem;
+  font-family: "Fraunces",sans-serif;
+  font-weight:400;
+  color: var(--White);
+  
+
+}
+.sub-hero-container .tailored{
+  border-bottom: 2px solid;
+  border-color: var(--btn-primary);
+}
+
+.btn{
+  background-color: var(--btn-primary);
+  color: var( --Dark-purple);
+  font-weight: 700;
+  border: none;
+  padding-inline: 1rem;
+  aspect-ratio: 2;
+  
+}
+
+.hero{
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+
+
+.services-container{
+  text-align: center; 
+  margin-block: 2.5rem;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  color: var(--Dark-purple);
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.services .number{
+    font-size: 1.3rem;
+    border: 1px solid;
+    aspect-ratio: 2.79;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+
+.services-paragraph p:nth-child(1){
+    font-size: 1.5rem;
+    font-family: "Fraunces",sans-serif;
+    margin-block: 1rem;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+
+
+.profile{
+  display: grid;
+  place-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.founder-img{
+  position: relative;
+  width: 60vw;
+  margin: 0 auto;
+  transform: translateY(65px);
+  z-index: 1;
+}
+
+.profile-paragraph{
+  background-color: var(--Dark-purple);
+  color: var(--White);
+  padding: 2rem;
+  z-index: 2;
+}
+
+.profile-paragraph > h2{
+
+  font-family: 'Fraunces',sans-serif;
+  margin-bottom: 1rem;
+}
+
+.btn-profile{
+  background-color: var(--btn-primary);
+  color: var( --Dark-purple);
+  font-weight: 700;
+  border: none;
+  margin-top: 1.5rem;
+  padding-inline: 1rem;
+  aspect-ratio: 3;
+  
+}
+
+.footer .icons{
+  display: flex;
+  margin-block:3rem;
+  gap: 1rem;
+}
+
+
+@media (min-width: 645px) {
+  
+  .overlay-hero{
+    clip-path:ellipse(800px 420px at 50vw 20vw);
+    overflow: hidden;
+  }
+
+  .overlay-services{
+    clip-path:ellipse(800px 800px at 50vw 20vw);
+  }
+
+  .bg-pattern-1, .bg-pattern-2, .bg-pattern-3{
+    position: absolute;
+    display: block;
+  }
+
+  .bg-pattern-1{
+    left: -15rem;
+  }
+  .bg-pattern-2{
+    top: 30%;
+    right: -5rem;
+    
+  }
+
+  .bg-pattern-3{
+    top:60%;
+    right: 0;
+    z-index: 3;
+  }
+
+  .sub-hero-container > h1{
+    z-index: 5;
+    font-size: 3.8rem;
+    max-width: 12ch;
+
+  }
+
+  .hero{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    height: 300px;
+  }
+
+  .services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .services{
+    flex-direction: row;
+  }
+
+  .services-paragraph{
+    text-align: left;
+  }
+
+  .profile{
+    display: flex;
+    margin-top: 15rem;
+  }
+
+  .founder-img{
+    max-height: 280px;
+    max-width: 280px;
+    object-fit: contain;
+    transform: translateY(-120px) translateX(30px);
+  }
+  
+  .profile-paragraph{
+    position: relative;
+    text-align: left;
+    margin-left: -40px;
+  }
+
+
+}
+
+
+
+
+
+@media (min-width: 900px){
+
+  .overlay-hero{
+    clip-path:ellipse(100% 500px at 50vw 15vw);
+  }
+
+  .overlay-services{
+    height: 75rem;
+    clip-path:ellipse(1700px 870px at 50vw 11vw);
+  }
+
+
+
+  .bg-pattern-1{
+    top: 15%;
+    left: -6rem;
+  }
+  .bg-pattern-2{
+    top: 40%;
+    right: -2rem;
+    
+  }
+
+  .bg-pattern-3{
+    top:70%;
+    right: 5rem;
+    z-index: 3;
+  }
+
+  .sub-hero-container > h1{
+    font-size: 5.5rem;
+    z-index: 5;
+    max-width: 12ch;
+
+  }
+
+  .hero{
+    margin-top: 5rem;
+    height: 400px;
+  }
+
+  .services-container{
+    flex-direction: row;
+    text-align: center;
+    max-width:1430px;
+    margin-block: 8.3rem;
+
+  }
+  .services{
+    flex-direction: column;
+  }
+
+  .services .number{
+    font-size: 1.8rem;
+    aspect-ratio: 3;
+    padding: 0.6rem;
+
+  }
+  
+  .services-paragraph{
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 27ch
+  }
+  .services-paragraph p:nth-child(1){
+    font-size: 2rem;
+  }
+  .services-paragraph p:nth-child(2){
+    font-size: 1.3rem;
+  }
+
+
+  .profile{
+    display: flex;
+    margin-top: 18rem;
+    max-width: 1430px;
+  }
+
+ 
+  .founder-img{
+    max-height: 450px;
+    max-width: 450px;
+    transform: translateY(-170px) translateX(30px);
+  }
+  
+  .profile-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 3rem;
+
+    position: relative;
+    text-align: left;
+    margin-left: -40px;
+  }
+  .profile-paragraph > h2{
+    font-size:3.5rem;
+  }
+  .profile-paragraph > p{
+    font-size:1.5rem;
+    font-weight: 200;
+  }
+
+  .btn-profile{
+    font-size: 1.1rem;
+  }
+
+
+}
+
+
+@media (min-width: 900px ) and (max-width: 1185px){
+
+  .overlay-services{
+    height: 73rem;
+    clip-path:ellipse(1400px 900px at 50vw 25vw);
+  }
+
+  .bg-pattern-3{
+    top:70%;
+    right: 1rem;
+    z-index: 3;
+  }
+
+  
+}
+
+
+
