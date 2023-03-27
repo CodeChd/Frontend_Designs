@@ -264,7 +264,7 @@
 @media (min-width: 900px){
 
   .overlay-hero{
-    clip-path:ellipse(100% 500px at 50vw 15vw);
+    clip-path:ellipse(1500px 500px at 50vw 13.50vw);
   }
 
   .overlay-services{
@@ -356,6 +356,7 @@
     position: relative;
     text-align: left;
     margin-left: -40px;
+
   }
   .profile-paragraph > h2{
     font-size:3.5rem;
