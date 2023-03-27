@@ -1,15 +1,10 @@
 # Frontend Mentor - Workit landing page solution
 
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/CodeChd/Frontend_Designs/tree/workit](https://github.com/CodeChd/Frontend_Designs/tree/workit)
+- Live Site URL: [workit-challenge.netlify.app](workit-challenge.netlify.app)
 
 ## My process
 
