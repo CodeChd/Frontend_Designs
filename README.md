@@ -4,7 +4,7 @@
 ### Links
 
 - Solution URL:https://github.com/CodeChd/Frontend_Designs/tree/workit
-- Live Site URL: workit-challenge.netlify.app
+- Live Site URL: https://workit-challenge.netlify.app
 
 ## My process
 
