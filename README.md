@@ -18,7 +18,7 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/CodeChd/Frontend_Designs/tree/Advice-generator-app)
-- Live Site URL: [Netlify](advice-gen-apph.netlify.app)
+- Live Site URL: [Netlify](advice-gen-aph.netlify.app)
 
 ## My process
 
