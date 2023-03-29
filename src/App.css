@@ -43,10 +43,11 @@ body{
   bottom: -2rem;
   cursor: pointer;
   transition: 200ms ease;
+  border: none;
 }
 
 .dice-btn:hover{
-  box-shadow: 0 0 32px 0 hsl(150, 100%, 66%);
+  box-shadow: 0 0 33px 0 hsl(150, 100%, 66%);
 
 }
 

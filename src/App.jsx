@@ -12,9 +12,6 @@ function App() {
      const data = await axios.get("https://api.adviceslip.com/advice")
      const res = data.data.slip
      setData(res)
-
-    //  console.log(data.data.slip)
-
        }
 
   const handleClick = () => Advice()
